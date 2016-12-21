@@ -8,6 +8,12 @@ h1, h2, h3, h4, h5, h6, p {
 	font-weight: normal;
 }
 
+header.hero {
+	text-align: center;
+	background: url("../images/annapolis_street.jpg");
+	background-size: cover;
+}
+
 .hero-intro {
 	font-family: 'brandon-grotesque', sans-serif;
 }

@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<!-- Navigation -->
-		<div>
+		<header role="banner">
 			<nav>
 				<!-- Transpose this to uppercase? Widely accepted CSS property? -->
 				<a href="#">Sundays</a>
@@ -16,59 +16,56 @@
 				<a href="#">App</a>
 				<a class="button" href="#">Login</a>
 			</nav>
-		</div>
-		<!-- Hero Landing -->
-		<div>
-			<!-- Should this be h1 or p? For instance, Handy wraps their p-tag thus:
-				<h1 class="hero-text">
-					<p>
-					Book your local, trusted cleaner
-					</p>
-				</h1>
-				Also, how should I write this code? It seems that the line break after every p-tag would get old after awhile?-->
-			<h1 class="hero-intro">Live a Life of Meaning and Purpose</h1>
-			<p>A church that empowers people to connect with others, be transformed,<br />and step into the world pulsing with life</p>
-			<!-- Use CSS to make button copy uppercase? Create a class for that? -->
-			<button>Schedule a Visit</button>
-			<button>Watch the Video</button>
-		</div>
-		<!-- Process Plan in Sections -->
-		<div>
-			<h2>Three Steps to Living a More Fulfilling Life</h2>
-			<section>
-				<!-- Should I add the numbers as images or as text? -->
-				<img src="#" title="1" alt="1">
-				<h3 class="home-step-list">Schedule a Visit</h3>
-				<p>Your first step is to come and see our community in action. We have three Sunday gatherings: 8, 9:15, and 11 a.m.</p>
-			</section>
-			<section>
-				<img src="#" title="2" alt="2">
-				<h3 class="step-list">Find Your Fit</h3>
-				<p>After you have begun to connect, step into an arena of impact. <abbr title="Evangelical Presbyterian Church">EP</abbr> offers the lot.</p>
-			</section>
-			<section>
-				<img src="#" title="3" alt="3">
-				<h3 class="step-list">Invest Where You Fit</h3>
-				<p>Once you are settled in, join with others as they impact Annapolis and the world.</p>
-			</section>
-		</div>
-		<!-- Video Call to Action -->
-		<div>
-			<h2>Discover how <abbr title="Evangelical Presbyterian Church">EP</abbr> has helped hundreds of people like you find what matters</h2>
-			<button>Play</button>
-		</div>
-		<!-- Testimonial and App -->
-		<div>
-			<section>
-				<h2 class="testimonial">What People Are Saying</h2>
-				<p>&ldquo;Before I came to <abbr title="Evangelical Presbyterian Church">EP</abbr> I wasn&rsquo;t sure where my next step was in life. Now I have a community of people I am doing life with and it is a blast.&rdquo;</p>
-				<p>&mdash;David Samson</p>
-			</section>
-			<section>
-				<img src="#" title="App Image" alt="">
-				<p>We know it can be tough visiting a church. Check out our app to learn more about us&mdash;listen to a sermon, learn our values, or just explore.</p>
-			</section>
-		</div>
+		</header>
+		<main role="main">
+			<article>
+				<!-- Hero Landing -->
+				<header class="hero">
+					<h1 class="hero-intro">Live a Life of Meaning and Purpose</h1>
+					<p>A church that empowers people to connect with others, be transformed,<br />and step into the world pulsing with life</p>
+					<!-- Use CSS to make button copy uppercase? Create a class for that? -->
+					<button>Schedule a Visit</button>
+					<button>Watch the Video</button>
+				</header>
+				<!-- Process Plan in Sections -->
+				<section>
+					<h2>Three Steps to Living a More Fulfilling Life</h2>
+					<section>
+						<!-- Should I add the numbers as images or as text? -->
+						<img src="#" title="1" alt="1">
+						<h3 class="home-step-list">Schedule a Visit</h3>
+						<p>Your first step is to come and see our community in action. We have three Sunday gatherings: 8, 9:15, and 11 a.m.</p>
+					</section>
+					<section>
+						<img src="#" title="2" alt="2">
+						<h3 class="step-list">Find Your Fit</h3>
+						<p>After you have begun to connect, step into an arena of impact. <abbr title="Evangelical Presbyterian Church">EP</abbr> offers the lot.</p>
+					</section>
+					<section>
+						<img src="#" title="3" alt="3">
+						<h3 class="step-list">Invest Where You Fit</h3>
+						<p>Once you are settled in, join with others as they impact Annapolis and the world.</p>
+					</section>
+				</section>
+				<!-- Video Call to Action -->
+				<section>
+					<h2>Discover how <abbr title="Evangelical Presbyterian Church">EP</abbr> has helped hundreds of people like you find what matters</h2>
+					<button>Play</button>
+				</section>
+				<!-- Testimonial and App -->
+				<section>
+					<section>
+						<h2 class="testimonial">What People Are Saying</h2>
+						<p>&ldquo;Before I came to <abbr title="Evangelical Presbyterian Church">EP</abbr> I wasn&rsquo;t sure where my next step was in life. Now I have a community of people I am doing life with and it is a blast.&rdquo;</p>
+						<p>&mdash;David Samson</p>
+					</section>
+					<section>
+						<img src="#" title="App Image" alt="">
+						<p>We know it can be tough visiting a church. Check out our app to learn more about us&mdash;listen to a sermon, learn our values, or just explore.</p>
+					</section>
+				</section>
+			</article>
+		</main>
 		<footer>
 			<div class="footer">
 				<p>Evangelical Presbyterian Church<br>710 Ridgely Aven.<br>Annapolis, Maryland 21401</p>
