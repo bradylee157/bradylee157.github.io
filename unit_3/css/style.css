@@ -1,5 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-color: #244578;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: white;
+	line-height: 1.3;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -8,23 +17,32 @@ h1, h2, h3, h4, h5, h6, p {
 	font-weight: normal;
 }
 
+p {
+	text-align: left;
+}
+
+header {
+	background: white;
+	text-align: right;
+	padding: 20px;
+	/*margin: 10px;*/
+}
+
 header.hero {
 	text-align: center;
 	background: url("../images/annapolis_street.jpg");
 	background-size: cover;
+	padding: 100px;
 }
 
-.hero-intro {
+h1, p.hero-intro {
+	text-align: center;
 	font-family: 'brandon-grotesque', sans-serif;
 }
 
-.home-step-list {
+h3.home-step-list {
 	font-size: 16px;
 	text-transform: uppercase;
-}
-
-p {
-	text-align: left;
 }
 
 a {
