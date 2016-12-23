@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #244578;
+	/*background-color: #244578;*/
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 200;
@@ -32,9 +32,17 @@ nav a {
 }
 
 header.hero {
+	background-color: #182D4F;
 	text-align: center;
 	background: url("../images/annapolis_street.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 700px;
+	opacity: .9;
+}
+
+div.hero-text {
+	opacity: 1;
 }
 
 h1.hero-h1 {
@@ -42,8 +50,8 @@ h1.hero-h1 {
 	padding: 20px 0px;
 }
 
-p.hero {
-	font-size: 1.2em;
+p.hero-p {
+	font-size: 1em;
 	padding: 10px 0px 40px;
 }
 
@@ -60,12 +68,26 @@ button.hero-button-dcta {
 	
 }
 
-/*p {
-	text-align: left;
-}*/
+section.process-plan {
+	background-color: white;
+	color: #244578;
+	min-height: 500px;
+}
 
 h3.home-step-list {
 	text-transform: uppercase;
+}
+
+section.video-cta {
+	background-color: #244578;
+	text-align: center;
+	min-height: 700px;
+}
+
+section.testimonial-app {
+	background-color: white;
+	color: #244578;
+	min-height: 500px;
 }
 
 footer {
