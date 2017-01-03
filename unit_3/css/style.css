@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -37,12 +38,12 @@ header.hero {
 	background: url("../images/annapolis_street.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 700px;
-	opacity: .9;
+	padding: 0;
 }
 
 div.hero-text {
-	opacity: 1;
+	background: rgba(36, 69, 120, 0.5);
+	padding: 15em 0;
 }
 
 h1.hero-h1 {
@@ -55,9 +56,12 @@ p.hero-p {
 	padding: 10px 0px 40px;
 }
 
-header button {
+.hero-button {
+	background: #fff;
 	padding: 10px;
 	margin: 15px;
+	color: #222;
+	text-decoration: none;
 }
 
 button.hero-button-dcta {
@@ -71,7 +75,6 @@ button.hero-button-dcta {
 section.process-plan {
 	background-color: white;
 	color: #244578;
-	min-height: 500px;
 }
 
 h3.home-step-list {
@@ -81,13 +84,11 @@ h3.home-step-list {
 section.video-cta {
 	background-color: #244578;
 	text-align: center;
-	min-height: 700px;
 }
 
 section.testimonial-app {
 	background-color: white;
 	color: #244578;
-	min-height: 500px;
 }
 
 footer {
