@@ -75,7 +75,7 @@ button.hero-button-dcta {
 section.process-plan {
 	background-color: white;
 	color: #244578;
-	padding: 20px 0px;
+	padding: 2em 1em;
 }
 
 h3.home-step-list {
@@ -85,16 +85,18 @@ h3.home-step-list {
 section.video-cta {
 	background-color: #244578;
 	text-align: center;
+	padding: 2em 1em;
 }
 
 section.testimonial-app {
 	background-color: white;
 	color: #244578;
+	padding: 2em 1em;
 }
 
 footer {
 	background-color: #217D85;
-	padding: 50px 0px;
+	padding: 3em 1em;
 }
 
 /*a {
