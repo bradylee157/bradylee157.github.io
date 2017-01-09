@@ -66,11 +66,22 @@ ul,ol {
     margin: 1em;
 }
 
-.call-to-action {
+.call-to-visit {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	font-size: 1.25em;
 	color: white;
 	background-color: #217D85;
+	padding: 1em 1.5em;
+	margin: 2em;
+	border:	none;
+}
+
+.call-to-video {
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	font-size: 1.25em;
+	color: white;
+	background-color: #217D85;
+	opacity: .5;
 	padding: 1em 1.5em;
 	margin: 2em;
 	border:	none;
