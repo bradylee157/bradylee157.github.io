@@ -13,14 +13,33 @@ body {
 	position: relative;
 }
 
+header {
+	/*background-color: #182D4F;
+	text-align: center;
+	background: url("../images/annapolis_street.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 3em 1em;
+	margin: 5em 0em;*/
+}
+
+footer {
+	background: #24328F;
+	color: white;
+	padding: 5em;
+	margin:	3em 0em 0em 0em;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	padding: 1em;
 }
 
 p {
 	text-align: left;
 	line-height: 1.5em;
 	max-width: 30em;
+	/*padding: 1em 0em;*/
 	margin: 1em auto;
 }
 
@@ -29,6 +48,32 @@ a {
 	color: #217D85; /* This and next two lines are for line below link. */
 	border-bottom: 1px solid #217D85;
 	padding-bottom: 2px;
+}
+
+ul,ol {
+	text-align: left;
+	line-height: 1.5em;
+	max-width: 30em;
+	padding: 0em 0em 0em 2.5em;
+	margin: 1em auto;
+}
+
+.nav-links {
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	border: none;
+	padding: 1em;
+    margin: 1em;
+}
+
+.call-to-action {
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	font-size: 1.25em;
+	color: white;
+	background-color: #217D85;
+	padding: 1em 1.5em;
+	margin: 2em;
+	border:	none;
 }
 
 .img-circle {
