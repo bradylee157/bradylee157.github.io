@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:200');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+	text-align: left;
+	line-height: 1.5em;
+	max-width: 30em;
+	margin: 1em auto;
+}
+
+a {
+	text-decoration: none;
+	color: #217D85; /* This and next two lines are for line below link. */
+	border-bottom: 1px solid #217D85;
+	padding-bottom: 2px;
+}
+
+.img-circle {
+	border-radius: 50%;
+
+}
