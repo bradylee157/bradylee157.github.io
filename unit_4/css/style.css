@@ -74,29 +74,22 @@ ul,ol {
 
 /* From Unit 3 but just in case. */
 .hero-text {
-	/*background: rgba(36, 69, 120, 0.5);*/
+	background: rgba(36, 69, 120, 0.5);
 	padding: 15em 0;
 }
-
-.call-to-visit {
-	font-family: 'Source Sans Pro', 'Arial', sans-serif;
-	font-size: 1.25em;
-	color: white;
-	background-color: #217D85;
-	padding: 1em 1.5em;
-	margin: 2em;
-	border:	none;
-}
-
 .call-to-video {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	font-size: 1.25em;
 	color: white;
-	background-color: #217D85;
-	opacity: .5;
+	/* background-color: rgba(33, 125, 133, 0.68); */
+	border: 2px solid;
 	padding: 1em 1.5em;
 	margin: 2em;
-	border:	none;
+	display: inline-block;
+}
+.call-to-visit {
+	background-color: #217D85;
+	border: none;
 }
 
 .process-plan {
