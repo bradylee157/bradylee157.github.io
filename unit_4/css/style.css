@@ -25,6 +25,12 @@ header {
 	/*padding: 15em 1em;*/
 }
 
+nav {
+	text-align: right;
+	background-color: white;
+	padding: 1em 1em;
+}
+
 footer {
 	background: #24328F;
 	color: white;
@@ -39,6 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
 	font-size: 4em;
+	font-weight: 100;
 }
 
 p {
@@ -72,10 +79,10 @@ ul,ol {
     margin: 1em;
 }
 
-/* From Unit 3 but just in case. */
 .hero-text {
-	background: rgba(36, 69, 120, 0.5);
-	padding: 15em 0;
+	background: rgba(11, 22, 38, 0.7);
+	text-align: center;
+	padding: 12em 0;
 }
 .call-to-video {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
@@ -84,12 +91,23 @@ ul,ol {
 	/* background-color: rgba(33, 125, 133, 0.68); */
 	border: 2px solid;
 	padding: 1em 1.5em;
-	margin: 2em;
+	margin: 2.5em;
 	display: inline-block;
 }
+
+.call-to-video:hover {
+	background-color: #101F36;
+	opacity: .7;
+}
+
 .call-to-visit {
 	background-color: #217D85;
 	border: none;
+}
+
+.call-to-visit:hover {
+	background-color: #2A9EA8;
+	opacity: 1;
 }
 
 .process-plan {
