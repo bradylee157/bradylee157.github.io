@@ -22,7 +22,7 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-repeat: no-repeat;
-	padding: 15em 1em;
+	/*padding: 15em 1em;*/
 }
 
 footer {
@@ -73,10 +73,10 @@ ul,ol {
 }
 
 /* From Unit 3 but just in case. */
-/*.hero-text {
-	background: rgba(36, 69, 120, 0.5);
+.hero-text {
+	/*background: rgba(36, 69, 120, 0.5);*/
 	padding: 15em 0;
-}*/
+}
 
 .call-to-visit {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
