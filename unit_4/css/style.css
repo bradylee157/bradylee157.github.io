@@ -14,13 +14,15 @@ body {
 }
 
 header {
-	/*background-color: #182D4F;
+	background-color: #182D4F;
 	text-align: center;
-	background: url("../images/annapolis_street.jpg");
-	background-size: cover;
+	color: white;
+	background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-repeat: no-repeat;
-	padding: 3em 1em;
-	margin: 5em 0em;*/
+	padding: 15em 1em;
 }
 
 footer {
@@ -33,6 +35,10 @@ footer {
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	padding: 1em;
+}
+
+h1 {
+	font-size: 4em;
 }
 
 p {
@@ -66,6 +72,12 @@ ul,ol {
     margin: 1em;
 }
 
+/* From Unit 3 but just in case. */
+/*.hero-text {
+	background: rgba(36, 69, 120, 0.5);
+	padding: 15em 0;
+}*/
+
 .call-to-visit {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	font-size: 1.25em;
@@ -87,7 +99,29 @@ ul,ol {
 	border:	none;
 }
 
+.process-plan {
+	padding: 3em 1em;
+}
+
 .img-circle {
 	border-radius: 50%;
 
+}
+
+.video-cta {
+	padding: 10em 1em;
+	background-color: #246A8F;
+	color: white;
+}
+
+.positioning {
+	padding: 3em 1em;
+}
+
+.testimonial {
+	padding: 3em 1em;
+}
+
+.renew {
+	padding: 3em 1em;
 }
