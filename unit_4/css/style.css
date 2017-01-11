@@ -27,7 +27,8 @@ header {
 
 nav {
 	text-align: right;
-	background-color: white;
+	background-color: #0B1626;
+	opacity: .9;
 	padding: 1em 1em;
 }
 
