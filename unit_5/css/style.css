@@ -50,6 +50,13 @@ article {
     padding: 20px;
 }
 
+div {
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 footer {
 	/* Unit 5 Code */
 	background-color: #FF957E;
