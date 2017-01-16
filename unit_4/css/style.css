@@ -64,6 +64,11 @@ a {
 	padding-bottom: 2px;
 }
 
+/*a:hover {
+	color: #2A9EA8;
+	border-bottom: 1px solid #2A9EA8;
+}*/
+
 ul,ol {
 	text-align: left;
 	line-height: 1.5em;
@@ -78,6 +83,10 @@ ul,ol {
 	border: none;
 	padding: 1em;
     margin: 1em;
+}
+
+.nav-links:hover {
+	color: #2A9EA8;
 }
 
 .hero-text {
