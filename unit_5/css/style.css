@@ -14,29 +14,52 @@ body {
 }
 
 header {
-	background-color: #182D4F;
+	/* Unit 5 Code */
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+
+
+	/*background-color: #182D4F;*/
 	text-align: center;
 	color: white;
-	background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
+	/*background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	/*padding: 15em 1em;*/
 }
 
 nav {
+	/* Unit 5 Code */
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+
 	text-align: right;
-	background-color: #0B1626;
+	/*background-color: #0B1626;*/
 	opacity: .9;
-	padding: 1em 1em;
+	/*padding: 1em 1em;*/
+}
+
+article {
+	/* Unit 5 Code */
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 footer {
-	background: #24328F;
+	/* Unit 5 Code */
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*background: #24328F;*/
 	color: white;
-	padding: 5em;
-	margin:	3em 0em 0em 0em;
+	/*padding: 5em;*/
+	/*margin:	3em 0em 0em 0em;*/
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -90,9 +113,14 @@ ul,ol {
 }
 
 .hero-text {
-	background: rgba(11, 22, 38, 0.7);
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*background: rgba(11, 22, 38, 0.7);*/
 	text-align: center;
-	padding: 12em 0;
+	/*padding: 12em 0;*/
 }
 .call-to-video {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
@@ -121,7 +149,12 @@ ul,ol {
 }
 
 .process-plan {
-	padding: 3em 1em;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*padding: 3em 1em;*/
 }
 
 .img-circle {
@@ -130,19 +163,39 @@ ul,ol {
 }
 
 .video-cta {
-	padding: 10em 1em;
-	background-color: #246A8F;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*padding: 10em 1em;
+	background-color: #246A8F;*/
 	color: white;
 }
 
 .positioning {
-	padding: 3em 1em;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*padding: 3em 1em;*/
 }
 
 .testimonial {
-	padding: 3em 1em;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*padding: 3em 1em;*/
 }
 
 .renew {
-	padding: 3em 1em;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*padding: 3em 1em;*/
 }
