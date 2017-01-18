@@ -107,6 +107,14 @@ ul,ol {
 	margin: 1em auto;
 }
 
+address {
+	text-align: left;
+	line-height: 1.5em;
+	max-width: 32em;
+	/*padding: 1em 0em;*/
+	margin: 1em auto;
+}
+
 .nav-links {
 	font-variant: small-caps;
 	letter-spacing: 2px;
@@ -164,6 +172,10 @@ ul,ol {
 	/*padding: 3em 1em;*/
 }
 
+.step {
+	float: left;
+}
+
 .img-circle {
 	border-radius: 50%;
 
@@ -178,6 +190,7 @@ ul,ol {
 	/*padding: 10em 1em;
 	background-color: #246A8F;*/
 	color: white;
+	clear: both;
 }
 
 .positioning {
@@ -205,4 +218,13 @@ ul,ol {
     padding: 20px;
 
 	/*padding: 3em 1em;*/
+}
+
+.clearfix {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
