@@ -72,6 +72,14 @@ footer {
 	/*margin:	3em 0em 0em 0em;*/
 }
 
+footer p {
+	float: right;
+}
+
+footer address {
+	float: left;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	padding: 1em;
@@ -184,8 +192,8 @@ address {
 .process-plan {
 	/* Unit 5 Code */
 	background-color: #FFE2B8;
-   /* border: 1px black solid;
-    padding: 20px;*/
+    border: 1px black solid;
+    padding: 20px;
     
     /* Unit 6 Code */
     width: 90%;
@@ -196,14 +204,40 @@ address {
 
 .wrapper {
 	margin: auto;
-	border: none;
+	/*border: none;*/
+
+	/* Unit 6 Code*/
+	background-color: #FFB7CF;
 }
 
-.step {
+.step-one {
 	float: left;
-	border:	none;
+	/*border: none;*/
 	max-width: 33.33%;
 	padding: 2em;
+
+	/* Unit 6 Code*/
+	background-color: #E582A2;
+}
+
+.step-two {
+	float: left;
+	/*border: none;*/
+	max-width: 33.33%;
+	padding: 2em;
+
+	/* Unit 6 Code */
+	background-color: #E55B88;
+}
+
+.step-three {
+	float: left;
+	/*border: none;*/
+	max-width: 33.33%;
+	padding: 2em;
+
+	/* Unit 6 Code*/
+	background-color: #E582A2;
 }
 
 .img-circle {
