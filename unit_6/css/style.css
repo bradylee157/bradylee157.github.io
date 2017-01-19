@@ -11,6 +11,9 @@ body {
 	font-size: 16px;
 	text-align: center;
 	position: relative;
+
+	/* Unit 6 Code */
+	background-color: #FFED74;
 }
 
 header {
@@ -81,12 +84,12 @@ h1 {
 
 h2 {
 	font-size: 1.8em;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 h3 {
 	font-size: 1.5em;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 h4 {
@@ -114,6 +117,18 @@ a {
 	border-bottom: 1px solid #2A9EA8;
 }*/
 
+nav a {
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	border: none;
+	padding: 1em;
+    margin: 1em;
+}
+
+nav a:hover {
+	color: #2A9EA8;
+}
+
 ul,ol {
 	text-align: left;
 	line-height: 1.5em;
@@ -128,18 +143,6 @@ address {
 	max-width: 32em;
 	/*padding: 1em 0em;*/
 	margin: 1em auto;
-}
-
-.nav-links {
-	font-variant: small-caps;
-	letter-spacing: 2px;
-	border: none;
-	padding: 1em;
-    margin: 1em;
-}
-
-.nav-links:hover {
-	color: #2A9EA8;
 }
 
 .hero-text {
@@ -183,18 +186,21 @@ address {
 	background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
+    
+    /* Unit 6 Code */
+    margin: auto;
+    width: 1122px;
 
 	/*padding: 3em 1em;*/
 }
 
 .step {
 	float: left;
-	/*max-width: 32em;*/
+	max-width: 360px;
 }
 
 .img-circle {
 	border-radius: 50%;
-
 }
 
 .video-cta {
