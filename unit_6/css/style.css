@@ -184,19 +184,26 @@ address {
 .process-plan {
 	/* Unit 5 Code */
 	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
+   /* border: 1px black solid;
+    padding: 20px;*/
     
     /* Unit 6 Code */
+    width: 90%;
     margin: auto;
-    width: 1122px;
 
 	/*padding: 3em 1em;*/
 }
 
+.wrapper {
+	margin: auto;
+	border: none;
+}
+
 .step {
 	float: left;
-	max-width: 360px;
+	border:	none;
+	max-width: 33.33%;
+	padding: 2em;
 }
 
 .img-circle {
