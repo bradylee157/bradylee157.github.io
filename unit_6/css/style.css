@@ -55,7 +55,7 @@ div {
 }
 
 footer {
-	background: #24328F;
+	background: #182D4F;
 	color: white;
 	padding: 5em;
 	margin:	3em 0em 0em 0em;
@@ -113,9 +113,9 @@ ul,ol {
 
 address {
 	text-align: left;
+	font-style: normal;
 	line-height: 1.5em;
-	padding: 1em 0em;
-	margin: 1em auto;
+	padding: 0em 1em 1em 1em;
 }
 
 .hero-text {
@@ -150,21 +150,15 @@ address {
 }
 
 .process-plan {
-    width: 90%;
+    width: 84%;
     margin: auto;
 	padding: 3em 1em;
 }
 
-.wrapper {
-	margin: auto;
-	border: none;
-}
-
 .step {
 	float: left;
-	border: 1px black solid;
 	width: 33.33%;
-	padding: 2em;
+	padding: 2em .5em;
 }
 
 .img-circle {
@@ -172,9 +166,9 @@ address {
 }
 
 .video-cta {
-	padding: 10em 1em;
 	background-color: #246A8F;
 	color: white;
+	padding: 10em 1em;
 	clear: both;
 }
 
