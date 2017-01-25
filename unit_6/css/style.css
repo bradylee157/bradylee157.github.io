@@ -212,7 +212,7 @@ address {
 
 .step-one {
 	float: left;
-	/*border: none;*/
+	border: 1px black solid;
 	max-width: 33.33%;
 	padding: 2em;
 
@@ -222,7 +222,7 @@ address {
 
 .step-two {
 	float: left;
-	/*border: none;*/
+	border: 1px black solid;
 	max-width: 33.33%;
 	padding: 2em;
 
@@ -232,7 +232,7 @@ address {
 
 .step-three {
 	float: left;
-	/*border: none;*/
+	border: 1px black solid;
 	max-width: 33.33%;
 	padding: 2em;
 
