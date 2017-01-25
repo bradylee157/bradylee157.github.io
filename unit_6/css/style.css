@@ -14,51 +14,67 @@ body {
 }
 
 header {
-	background-color: #182D4F;
+	/* Unit 5 Code */
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+
+
+	/*background-color: #182D4F;*/
+	text-align: center;
 	color: white;
-	background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
+	/*background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-repeat: no-repeat;
-}
-
-header p {
-	text-align: center;
+	background-repeat: no-repeat;*/
+	/*padding: 15em 1em;*/
 }
 
 nav {
+	/* Unit 5 Code */
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+
 	text-align: right;
-	background-color: #0B1626;
+	/*background-color: #0B1626;*/
 	opacity: .9;
-	padding: 1em;
-}
-
-nav a {
-	font-variant: small-caps;
-	letter-spacing: 2px;
-	border: none;
-	padding: 1em;
-    margin: 1em;
-}
-
-nav a:hover {
-	color: #2A9EA8;
+	/*padding: 1em 1em;*/
 }
 
 article {
-	max-width: 36em;
-	margin: 0 auto;
+	/* Unit 5 Code */
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 div {
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 footer {
-	background: #182D4F;
-	color: white;
-	padding: 5em;
-	margin:	3em 0em 0em 0em;
+	/* Unit 5 Code */
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*background: #24328F;*/
+	/*color: white;*/
+	/*padding: 5em;*/
+	/*margin:	3em 0em 0em 0em;*/
+}
+
+footer p {
+	float: right;
+}
+
+footer address {
+	float: left;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -87,9 +103,11 @@ h4 {
 }
 
 p {
-	line-height: 1.5em;
 	text-align: left;
-	padding: 0em 1em 1em 1em;
+	line-height: 1.5em;
+	max-width: 32em;
+	/*padding: 1em 0em;*/
+	margin: 1em auto;
 }
 
 a {
@@ -104,29 +122,49 @@ a {
 	border-bottom: 1px solid #2A9EA8;
 }*/
 
+nav a {
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	border: none;
+	padding: 1em;
+    margin: 1em;
+}
+
+nav a:hover {
+	color: #2A9EA8;
+}
+
 ul,ol {
 	text-align: left;
 	line-height: 1.5em;
+	max-width: 30em;
 	padding: 0em 0em 0em 2.5em;
 	margin: 1em auto;
 }
 
 address {
 	text-align: left;
-	font-style: normal;
 	line-height: 1.5em;
-	padding: 0em 1em 1em 1em;
+	max-width: 32em;
+	/*padding: 1em 0em;*/
+	margin: 1em auto;
 }
 
 .hero-text {
-	background: rgba(11, 22, 38, 0.7);
-	padding: 12em 0;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*background: rgba(11, 22, 38, 0.7);*/
+	text-align: center;
+	/*padding: 12em 0;*/
 }
 .call-to-video {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	font-size: 1.25em;
 	color: white;
-	background-color: rgba(33, 125, 133, 0); 
+	/* background-color: rgba(33, 125, 133, 0.68); */
 	border: 2px solid;
 	padding: 1em 1.5em;
 	margin: 2.5em;
@@ -135,30 +173,68 @@ address {
 
 .call-to-video:hover {
 	background-color: #101F36;
-	opacity: .7; /* Opacity affects border. Why? */
+	opacity: .7;
 }
 
 .call-to-visit {
 	background-color: #217D85;
-	border: 2px solid #217D85;
+	border: none;
 }
 
 .call-to-visit:hover {
 	background-color: #2A9EA8;
-	border: 2px solid #2A9EA8;
 	opacity: 1;
 }
 
 .process-plan {
-    width: 84%;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    
+    /* Unit 6 Code */
+    width: 90%;
     margin: auto;
-	padding: 3em 1em;
+
+	/*padding: 3em 1em;*/
 }
 
-.step {
+.wrapper {
+	margin: auto;
+	/*border: none;*/
+
+	/* Unit 6 Code*/
+	background-color: #FFB7CF;
+}
+
+.step-one {
 	float: left;
-	width: 33.33%;
-	padding: 2em .5em;
+	border: 1px black solid;
+	max-width: 33.33%;
+	padding: 2em;
+
+	/* Unit 6 Code*/
+	background-color: #E582A2;
+}
+
+.step-two {
+	float: left;
+	border: 1px black solid;
+	max-width: 33.33%;
+	padding: 2em;
+
+	/* Unit 6 Code */
+	background-color: #E55B88;
+}
+
+.step-three {
+	float: left;
+	border: 1px black solid;
+	max-width: 33.33%;
+	padding: 2em;
+
+	/* Unit 6 Code*/
+	background-color: #E582A2;
 }
 
 .img-circle {
@@ -166,24 +242,42 @@ address {
 }
 
 .video-cta {
-	background-color: #246A8F;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*padding: 10em 1em;
+	background-color: #246A8F;*/
 	color: white;
-	padding: 10em 1em;
 	clear: both;
 }
 
 .positioning {
-	padding: 3em 1em;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*padding: 3em 1em;*/
 }
 
 .testimonial {
-	max-width: 36em;
-	padding: 3em 1em;
-	margin: 0 auto;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*padding: 3em 1em;*/
 }
 
 .renew {
-	padding: 3em 1em;
+	/* Unit 5 Code */
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	/*padding: 3em 1em;*/
 }
 
 .clearfix:after {
