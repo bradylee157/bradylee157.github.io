@@ -14,59 +14,36 @@ body {
 }
 
 header {
-	/* Unit 5 Code */
-	background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-
-
-	/*background-color: #182D4F;*/
+	background-color: #182D4F;
 	text-align: center;
 	color: white;
-	/*background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
+	background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-repeat: no-repeat;*/
-	/*padding: 15em 1em;*/
+	background-repeat: no-repeat;
+	padding: 15em 1em;
 }
 
 nav {
-	/* Unit 5 Code */
-	background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
 
 	text-align: right;
-	/*background-color: #0B1626;*/
+	background-color: #0B1626;
 	opacity: .9;
-	/*padding: 1em 1em;*/
+	padding: 1em;
 }
 
 article {
-	/* Unit 5 Code */
-	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
 }
 
 div {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
 }
 
 footer {
-	/* Unit 5 Code */
-	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*background: #24328F;*/
-	/*color: white;*/
-	/*padding: 5em;*/
-	/*margin:	3em 0em 0em 0em;*/
+	background: #24328F;
+	color: white;
+	padding: 5em;
+	margin:	3em 0em 0em 0em;
 }
 
 footer p {
@@ -106,7 +83,7 @@ p {
 	text-align: left;
 	line-height: 1.5em;
 	max-width: 32em;
-	/*padding: 1em 0em;*/
+	padding: 1em 0em;
 	margin: 1em auto;
 }
 
@@ -146,25 +123,20 @@ address {
 	text-align: left;
 	line-height: 1.5em;
 	max-width: 32em;
-	/*padding: 1em 0em;*/
+	padding: 1em 0em;
 	margin: 1em auto;
 }
 
 .hero-text {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*background: rgba(11, 22, 38, 0.7);*/
+	background: rgba(11, 22, 38, 0.7);
 	text-align: center;
-	/*padding: 12em 0;*/
+	padding: 12em 0;
 }
 .call-to-video {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	font-size: 1.25em;
 	color: white;
-	/* background-color: rgba(33, 125, 133, 0.68); */
+	background-color: rgba(33, 125, 133, 0.68); 
 	border: 2px solid;
 	padding: 1em 1.5em;
 	margin: 2.5em;
@@ -187,24 +159,14 @@ address {
 }
 
 .process-plan {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-    
-    /* Unit 6 Code */
     width: 90%;
     margin: auto;
-
-	/*padding: 3em 1em;*/
+	padding: 3em 1em;
 }
 
 .wrapper {
 	margin: auto;
-	/*border: none;*/
-
-	/* Unit 6 Code*/
-	background-color: #FFB7CF;
+	border: none;
 }
 
 .step-one {
@@ -212,9 +174,6 @@ address {
 	border: 1px black solid;
 	max-width: 33.33%;
 	padding: 2em;
-
-	/* Unit 6 Code*/
-	background-color: #E582A2;
 }
 
 .step-two {
@@ -222,9 +181,6 @@ address {
 	border: 1px black solid;
 	max-width: 33.33%;
 	padding: 2em;
-
-	/* Unit 6 Code */
-	background-color: #E55B88;
 }
 
 .step-three {
@@ -232,9 +188,6 @@ address {
 	border: 1px black solid;
 	max-width: 33.33%;
 	padding: 2em;
-
-	/* Unit 6 Code*/
-	background-color: #E582A2;
 }
 
 .img-circle {
@@ -242,42 +195,22 @@ address {
 }
 
 .video-cta {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*padding: 10em 1em;
-	background-color: #246A8F;*/
+	padding: 10em 1em;
+	background-color: #246A8F;
 	color: white;
 	clear: both;
 }
 
 .positioning {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*padding: 3em 1em;*/
+	padding: 3em 1em;
 }
 
 .testimonial {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*padding: 3em 1em;*/
+	padding: 3em 1em;
 }
 
 .renew {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*padding: 3em 1em;*/
+	padding: 3em 1em;
 }
 
 .clearfix:after {
