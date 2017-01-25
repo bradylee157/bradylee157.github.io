@@ -14,67 +14,51 @@ body {
 }
 
 header {
-	/* Unit 5 Code */
-	background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-
-
-	/*background-color: #182D4F;*/
-	text-align: center;
+	background-color: #182D4F;
 	color: white;
-	/*background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
+	background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-repeat: no-repeat;*/
-	/*padding: 15em 1em;*/
+	background-repeat: no-repeat;
+}
+
+header p {
+	text-align: center;
 }
 
 nav {
-	/* Unit 5 Code */
-	background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
-
 	text-align: right;
-	/*background-color: #0B1626;*/
+	background-color: #0B1626;
 	opacity: .9;
-	/*padding: 1em 1em;*/
+	padding: 1em;
+}
+
+nav a {
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	border: none;
+	padding: 1em;
+    margin: 1em;
+}
+
+nav a:hover {
+	color: #2A9EA8;
 }
 
 article {
-	/* Unit 5 Code */
-	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+	max-width: 36em;
+	margin: 0 auto;
 }
 
 div {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
 }
 
 footer {
-	/* Unit 5 Code */
-	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*background: #24328F;*/
-	/*color: white;*/
-	/*padding: 5em;*/
-	/*margin:	3em 0em 0em 0em;*/
-}
-
-footer p {
-	float: right;
-}
-
-footer address {
-	float: left;
+	background: #182D4F;
+	color: white;
+	padding: 5em;
+	margin:	3em 0em 0em 0em;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -103,11 +87,9 @@ h4 {
 }
 
 p {
-	text-align: left;
 	line-height: 1.5em;
-	max-width: 32em;
-	/*padding: 1em 0em;*/
-	margin: 1em auto;
+	text-align: left;
+	padding: 0em 1em 1em 1em;
 }
 
 a {
@@ -122,49 +104,29 @@ a {
 	border-bottom: 1px solid #2A9EA8;
 }*/
 
-nav a {
-	font-variant: small-caps;
-	letter-spacing: 2px;
-	border: none;
-	padding: 1em;
-    margin: 1em;
-}
-
-nav a:hover {
-	color: #2A9EA8;
-}
-
 ul,ol {
 	text-align: left;
 	line-height: 1.5em;
-	max-width: 30em;
 	padding: 0em 0em 0em 2.5em;
 	margin: 1em auto;
 }
 
 address {
 	text-align: left;
+	font-style: normal;
 	line-height: 1.5em;
-	max-width: 32em;
-	/*padding: 1em 0em;*/
-	margin: 1em auto;
+	padding: 0em 1em 1em 1em;
 }
 
 .hero-text {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*background: rgba(11, 22, 38, 0.7);*/
-	text-align: center;
-	/*padding: 12em 0;*/
+	background: rgba(11, 22, 38, 0.7);
+	padding: 12em 0;
 }
 .call-to-video {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	font-size: 1.25em;
 	color: white;
-	/* background-color: rgba(33, 125, 133, 0.68); */
+	background-color: rgba(33, 125, 133, 0); 
 	border: 2px solid;
 	padding: 1em 1.5em;
 	margin: 2.5em;
@@ -173,68 +135,30 @@ address {
 
 .call-to-video:hover {
 	background-color: #101F36;
-	opacity: .7;
+	opacity: .7; /* Opacity affects border. Why? */
 }
 
 .call-to-visit {
 	background-color: #217D85;
-	border: none;
+	border: 2px solid #217D85;
 }
 
 .call-to-visit:hover {
 	background-color: #2A9EA8;
+	border: 2px solid #2A9EA8;
 	opacity: 1;
 }
 
 .process-plan {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-    
-    /* Unit 6 Code */
-    width: 90%;
+    width: 84%;
     margin: auto;
-
-	/*padding: 3em 1em;*/
+	padding: 3em 1em;
 }
 
-.wrapper {
-	margin: auto;
-	/*border: none;*/
-
-	/* Unit 6 Code*/
-	background-color: #FFB7CF;
-}
-
-.step-one {
+.step {
 	float: left;
-	border: 1px black solid;
-	max-width: 33.33%;
-	padding: 2em;
-
-	/* Unit 6 Code*/
-	background-color: #E582A2;
-}
-
-.step-two {
-	float: left;
-	border: 1px black solid;
-	max-width: 33.33%;
-	padding: 2em;
-
-	/* Unit 6 Code */
-	background-color: #E55B88;
-}
-
-.step-three {
-	float: left;
-	border: 1px black solid;
-	max-width: 33.33%;
-	padding: 2em;
-
-	/* Unit 6 Code*/
-	background-color: #E582A2;
+	width: 33.33%;
+	padding: 2em .5em;
 }
 
 .img-circle {
@@ -242,42 +166,24 @@ address {
 }
 
 .video-cta {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*padding: 10em 1em;
-	background-color: #246A8F;*/
+	background-color: #246A8F;
 	color: white;
+	padding: 10em 1em;
 	clear: both;
 }
 
 .positioning {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*padding: 3em 1em;*/
+	padding: 3em 1em;
 }
 
 .testimonial {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*padding: 3em 1em;*/
+	max-width: 36em;
+	padding: 3em 1em;
+	margin: 0 auto;
 }
 
 .renew {
-	/* Unit 5 Code */
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-
-	/*padding: 3em 1em;*/
+	padding: 3em 1em;
 }
 
 .clearfix:after {
