@@ -36,13 +36,15 @@ nav {
 
 nav a {
 	font-variant: small-caps;
+	color: #2A9EA8;
 	letter-spacing: 2px;
 	border: none;
 	padding: 1em 2em;
 }
 
 nav a:hover {
-	color: #2A9EA8;
+	background-color: #2A9EA8;
+	color: white;
 }
 
 article {
@@ -98,10 +100,10 @@ a {
 	padding-bottom: 2px;
 }
 
-/*a:hover {
+a:hover {
 	color: #2A9EA8;
 	border-bottom: 1px solid #2A9EA8;
-}*/
+}
 
 ul,ol {
 	text-align: left;
@@ -121,6 +123,7 @@ address {
 	background: rgba(11, 22, 38, 0.7);
 	padding: 12em 0;
 }
+
 .call-to-video {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	font-size: 1.25em;
@@ -134,7 +137,9 @@ address {
 
 .call-to-video:hover {
 	background-color: #101F36;
-	opacity: .7; /* Opacity affects border. Why? */
+	border: 2px solid white;
+	color: white;
+	opacity: 1; /* Opacity affects border. Why? */
 }
 
 .call-to-visit {
@@ -145,6 +150,7 @@ address {
 .call-to-visit:hover {
 	background-color: #2A9EA8;
 	border: 2px solid #2A9EA8;
+	color: white;
 	opacity: 1;
 }
 
