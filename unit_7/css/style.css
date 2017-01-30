@@ -14,8 +14,6 @@ body {
 }
 
 header {
-	background-color: #182D4F;
-	color: white;
 	background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -120,7 +118,8 @@ address {
 }
 
 .hero-text {
-	background: rgba(11, 22, 38, 0.7);
+	background: rgba(11, 22, 38, 0.6);
+	color: white;
 	padding: 12em 0;
 }
 
@@ -170,8 +169,17 @@ address {
 	border-radius: 50%;
 }
 
+.video-cta-background {
+	background: url("../images/main_street.jpg") no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .video-cta {
 	background-color: #246A8F;
+	background: rgba(36, 106, 143, 0.8);
 	color: white;
 	padding: 10em 1em;
 	clear: both;
