@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:200');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+}
+
+header {
+	background-color: #182D4F;
+	color: white;
+	background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header p {
+	text-align: center;
+}
+
+nav {
+	text-align: right;
+	background-color: #0B1626;
+	opacity: .9;
+	padding: 1em;
+}
+
+nav a {
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	border: none;
+	padding: 1em;
+    margin: 1em;
+}
+
+nav a:hover {
+	color: #2A9EA8;
+}
+
+article {
+	max-width: 36em;
+	margin: 0 auto;
+}
+
+div {
+}
+
+footer {
+	background: #182D4F;
+	color: white;
+	padding: 5em;
+	margin:	3em 0em 0em 0em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	padding: 1em;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 1.8em;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.5em;
+	text-align: left;
+	padding: 0em 1em 1em 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #217D85; /* This and next two lines are for line below link. */
+	border-bottom: 1px solid #217D85;
+	padding-bottom: 2px;
+}
+
+/*a:hover {
+	color: #2A9EA8;
+	border-bottom: 1px solid #2A9EA8;
+}*/
+
+ul,ol {
+	text-align: left;
+	line-height: 1.5em;
+	padding: 0em 0em 0em 2.5em;
+	margin: 1em auto;
+}
+
+address {
+	text-align: left;
+	font-style: normal;
+	line-height: 1.5em;
+	padding: 0em 1em 1em 1em;
+}
+
+.hero-text {
+	background: rgba(11, 22, 38, 0.7);
+	padding: 12em 0;
+}
+.call-to-video {
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	font-size: 1.25em;
+	color: white;
+	background-color: rgba(33, 125, 133, 0); 
+	border: 2px solid;
+	padding: 1em 1.5em;
+	margin: 2.5em;
+	display: inline-block;
+}
+
+.call-to-video:hover {
+	background-color: #101F36;
+	opacity: .7; /* Opacity affects border. Why? */
+}
+
+.call-to-visit {
+	background-color: #217D85;
+	border: 2px solid #217D85;
+}
+
+.call-to-visit:hover {
+	background-color: #2A9EA8;
+	border: 2px solid #2A9EA8;
+	opacity: 1;
+}
+
+.process-plan {
+    width: 84%;
+    margin: auto;
+	padding: 3em 1em;
+}
+
+.step {
+	float: left;
+	width: 33.33%;
+	padding: 2em .5em;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.video-cta {
+	background-color: #246A8F;
+	color: white;
+	padding: 10em 1em;
+	clear: both;
+}
+
+.positioning {
+	padding: 3em 1em;
+}
+
+.testimonial {
+	max-width: 36em;
+	padding: 3em 1em;
+	margin: 0 auto;
+}
+
+.renew {
+	padding: 3em 1em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
