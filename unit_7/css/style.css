@@ -123,6 +123,11 @@ address {
 	padding: 12em 0;
 }
 
+.hero-text p {
+	max-width: 36em;
+	margin: .5em auto;
+}
+
 .call-to-video {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	font-size: 1.25em;
@@ -203,3 +208,116 @@ address {
 	clear: both;
 	height: 0;
 }
+
+@media only screen and (max-width: 1170px) {
+	.hero-text {
+		padding: 10em 0;
+	}
+
+	.process-plan {
+	    width: 92%;
+	    margin: auto;
+		padding: 2em .5em;
+	}
+
+	.step {
+		float: left;
+		width: 33.33%;
+		padding: 2em .25em;
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+
+	h3 {
+		font-size: 1.2em;
+		font-weight: 700;
+	}
+
+	h4 {
+		font-size: 1.1em;
+		font-weight: 700;
+	}
+
+	.hero-text {
+		padding: 8em 0;
+	}
+
+	.process-plan {
+	    max-width: 48em;
+	    margin: .5em auto;
+	}
+
+	.step {
+		float: none;
+		width: 66.6667%;
+		margin: .25em auto;
+		padding: .5em .25em;
+	}
+}
+
+@media only screen and (max-width: 790px) {
+	nav a {
+		display: block;
+		padding: 1em 2em;
+	}
+
+	.call-to-video {
+		padding: .75em 1.25em;
+		margin: 1.5em;
+	}
+
+	.video-cta {
+		padding: 7em 1em;
+	}
+
+	.step {
+		float: none;
+		width: 75%;
+		margin: .25em auto;
+		padding: .5em .25em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	h1,h2,h3,h4,h5,h6 {
+		padding: .5em;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	.hero-text {
+		padding: 7em 0;
+	}
+
+	.hero-text p {
+		max-width: 32em;
+		margin: .5em auto;
+	}
+
+	.call-to-video {
+		display: block;
+		width: 75%;
+		padding: .75em 1.25em;
+		margin: 1.5em auto;
+	}
+
+	.step {
+		float: none;
+		width: 85%;
+		margin: .25em auto;
+		padding: .5em .25em;
+	}
+}
+
+
