@@ -209,6 +209,10 @@ address {
 	height: 0;
 }
 
+#mobile {
+	display: none;
+}
+
 @media only screen and (max-width: 1170px) {
 	.hero-text {
 		padding: 10em 0;
@@ -266,8 +270,12 @@ address {
 
 @media only screen and (max-width: 790px) {
 	nav a {
-		display: block;
+		display: none;
 		padding: 1em 2em;
+	}
+
+	nav:hover a {
+		display: block;
 	}
 
 	.call-to-video {
@@ -284,6 +292,10 @@ address {
 		width: 75%;
 		margin: .25em auto;
 		padding: .5em .25em;
+	}
+
+	#mobile {
+		display: block;
 	}
 }
 
