@@ -125,6 +125,12 @@ address {
 	float: left;
 }
 
+.logo a {
+	text-decoration: none;
+	color: white;
+	border: none;
+}
+
 .hero-text {
 	background: rgba(11, 22, 38, 0.6);
 	color: white;
@@ -332,6 +338,10 @@ address {
 		opacity: .5;
 	    padding: .5em 0;
 	    margin: 0 auto;
+	}
+
+	.logo a {
+		opacity: .5;
 	}
 }
 
