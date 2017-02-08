@@ -58,7 +58,7 @@ footer {
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
-	padding: 1em .5em;
+	padding: .5em .5em;
 }
 
 h1 {
@@ -106,6 +106,12 @@ ul,ol {
 	margin: 1em auto;
 }
 
+hr {
+	border: .5px solid white;
+	margin: 1.5em auto;
+	width: 16em;
+}
+
 address {
 	text-align: left;
 	font-style: normal;
@@ -134,7 +140,7 @@ address {
 .hero-text {
 	background: rgba(11, 22, 38, 0.6);
 	color: white;
-	padding: 8em 0;
+	padding: 7em 0;
 }
 
 .hero-text p {
@@ -208,6 +214,20 @@ address {
 	padding: 2em 1em;
 }
 
+.testimonial-background {
+	background: url("../images/water_sunset.jpg") no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.testimonial-wrapper {
+	background-color: #24328F;
+	background: rgba(36, 50, 143, 0.8);
+	color: white;
+}
+
 .testimonial {
 	max-width: 36em;
 	padding: 2em 1em;
@@ -221,12 +241,6 @@ address {
 	content: " ";
 	clear: both;
 	height: 0;
-}
-
-@media only screen and (min-width: 1201px) {
-	.hero-text {
-		padding: 9em 0;
-	}
 }
 
 @media only screen and (max-width: 1200px) {
