@@ -330,7 +330,7 @@ address {
 		float: none;
 		text-align: center;
 		opacity: .5;
-	    padding: .5em 0;
+	    padding: .5em 0 0;
 	    margin: 0 auto;
 	}
 }
