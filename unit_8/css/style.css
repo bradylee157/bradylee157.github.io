@@ -58,7 +58,7 @@ footer {
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
-	padding: 1em;
+	padding: 1em .5em;
 }
 
 h1 {
@@ -111,12 +111,6 @@ address {
 	font-style: normal;
 	line-height: 1.5em;
 	padding: 0em 1em 1em 1em;
-}
-
-/* Remove after testing! */
-.test {
-	padding: 2em;
-	margin: 2em;
 }
 
 .logo-nav {
@@ -173,9 +167,9 @@ address {
 }
 
 .process-plan {
-    width: 84%;
+    width: 92%;
     margin: auto;
-	padding: 3em 1em;
+	padding: 2em 1em;
 }
 
 .step {
@@ -200,17 +194,17 @@ address {
 	background-color: #246A8F;
 	background: rgba(36, 106, 143, 0.8);
 	color: white;
-	padding: 12em 1em;
+	padding: 10em .5em;
 	clear: both;
 }
 
 .narrative {
-	padding: 3em 1em;
+	padding: 2em 1em;
 }
 
 .testimonial {
 	max-width: 36em;
-	padding: 3em 1em;
+	padding: 2em 1em;
 	margin: 0 auto;
 }
 
@@ -223,11 +217,11 @@ address {
 	height: 0;
 }
 
-@media only screen and (min-width: 1171px) {
+@media only screen and (min-width: 1201px) {
 
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1200px) {
 	h1 {
 		font-size: 3.5em;
 	}
@@ -237,7 +231,7 @@ address {
 	}
 
 	.process-plan {
-	    width: 92%;
+	    width: 100%;
 	    margin: auto;
 		padding: 2em .5em;
 	}
@@ -245,7 +239,7 @@ address {
 	.step {
 		float: left;
 		width: 33.33%;
-		padding: 2em .25em;
+		padding: 2em 0;
 	}
 }
 
@@ -305,7 +299,7 @@ address {
 	}
 
 	.video-cta {
-		padding: 9em 1em;
+		padding: 8em 1em;
 	}
 
 	.step {
@@ -345,6 +339,10 @@ address {
 		padding: .5em .25em;
 	}
 
+	p {
+		padding: 0 .5em 1em .5em;
+	}
+
 	footer {
 		padding: 5em 1em;
 	}
@@ -381,6 +379,18 @@ address {
 		margin: .25em auto;
 		padding: .5em .25em;
 	}
+
+	.video-cta {
+		padding: 7em 1em;
+	}
+
+	.narrative {
+		padding: 1.5em .5em;
+	}
+
+	.testimonial {
+		padding: 1.5em .5em;
+	}
 }
 
 @media only screen and (max-width: 450px) {
@@ -407,6 +417,10 @@ address {
 
 	.step {
 		width: 100%;
+	}
+
+	.video-cta {
+		padding: 5em 1em;
 	}
 }
 
