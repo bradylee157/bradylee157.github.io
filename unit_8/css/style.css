@@ -327,6 +327,7 @@ address {
 	.logo {
 		float: none;
 		text-align: center;
+		opacity: .5;
 	    padding: .5em 0;
 	    margin: 0 auto;
 	}
