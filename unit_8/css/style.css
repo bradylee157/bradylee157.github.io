@@ -417,7 +417,7 @@ address {
 	}
 
 	.hero-text {
-		padding: 3em 0;
+		padding: 2.5em 0;
 	}
 
 	.call-to-video {
@@ -435,7 +435,7 @@ address {
 
 @media only screen and (max-width: 360px) {
 	.hero-text {
-		padding: 2em 0em;
+		padding: 1em 0em;
 	}
 
 	.call-to-video {
