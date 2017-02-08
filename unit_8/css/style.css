@@ -8,7 +8,7 @@
 
 body {
 	font-family: 'Open Sans', 'Helvetica', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 	position: relative;
 }
@@ -26,10 +26,8 @@ header p {
 }
 
 nav {
-	text-align: right;
-	background-color: #0B1626;
-	opacity: .9;
 	padding: 1em;
+	float: right;
 }
 
 nav a {
@@ -43,6 +41,7 @@ nav a {
 nav a:hover {
 	background-color: #2A9EA8;
 	color: white;
+	border: none;
 }
 
 article {
@@ -114,10 +113,28 @@ address {
 	padding: 0em 1em 1em 1em;
 }
 
+/* Remove after testing! */
+.test {
+	padding: 2em;
+	margin: 2em;
+}
+
+.logo-nav {
+	background-color: #0B1626;
+	opacity: .9;
+}
+
+.logo {
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	color: white;
+	padding: 1em;
+	float: left;
+}
+
 .hero-text {
 	background: rgba(11, 22, 38, 0.6);
 	color: white;
-	padding: 12em 0;
+	padding: 8em 0;
 }
 
 .hero-text p {
@@ -132,7 +149,7 @@ address {
 	background-color: rgba(33, 125, 133, 0); 
 	border: 2px solid;
 	padding: 1em 1.5em;
-	margin: 2.5em;
+	margin: 2em;
 	display: inline-block;
 }
 
@@ -206,13 +223,17 @@ address {
 	height: 0;
 }
 
-#mobile {
-	display: none;
+@media only screen and (min-width: 1171px) {
+
 }
 
 @media only screen and (max-width: 1170px) {
+	h1 {
+		font-size: 3.5em;
+	}
+
 	.hero-text {
-		padding: 10em 0;
+		padding: 7em 0;
 	}
 
 	.process-plan {
@@ -249,7 +270,12 @@ address {
 	}
 
 	.hero-text {
-		padding: 8em 0;
+		padding: 6em 0;
+	}
+
+	.call-to-video {
+		padding: .75em 1.25em;
+		margin: 1.5em;
 	}
 
 	.process-plan {
@@ -265,23 +291,17 @@ address {
 	}
 }
 
-@media only screen and (max-width: 790px) {
-	nav {
-		padding: 0;
+@media only screen and (max-width: 880px) {
+	body {
+		font-size: 16px;
 	}
 
-	nav a {
-		display: none;
-		padding: 1em 2em;
+	h1 {
+		font-size: 3em;
 	}
 
-	nav:hover a {
-		display: block;
-	}
-
-	.call-to-video {
-		padding: .75em 1.25em;
-		margin: 1.5em;
+	.hero-text {
+		padding: 5em 0;
 	}
 
 	.video-cta {
@@ -294,19 +314,35 @@ address {
 		margin: .25em auto;
 		padding: .5em .25em;
 	}
+}
 
-	#mobile {
+@media only screen and (max-width: 767px) {
+	nav {
+		padding: 0;
+	}
+
+	nav a {
 		display: block;
+		float: left;
+	}
+
+	.logo {
+		display: none;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	h1,h2,h3,h4,h5,h6 {
-		padding: .5em .25em;
+	nav {
+		width: 100%;
 	}
 
-	h1 {
-		font-size: 2.5em;
+	nav a {
+		width: 25%;
+		padding: 1em 0;
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+		padding: .5em .25em;
 	}
 
 	footer {
@@ -323,7 +359,7 @@ address {
 	}
 
 	.hero-text {
-		padding: 7em 0;
+		padding: 4em 0;
 	}
 
 	.hero-text p {
@@ -334,7 +370,7 @@ address {
 
 	.call-to-video {
 		display: block;
-		width: 75%;
+		width: 50%;
 		padding: .75em 1.25em;
 		margin: 1.5em auto;
 	}
@@ -348,6 +384,11 @@ address {
 }
 
 @media only screen and (max-width: 450px) {
+	nav a {
+		width: 50%;
+		padding: .75em 0;
+	}
+
 	h1 {
 		font-size: 2em;
 	}
@@ -358,6 +399,10 @@ address {
 
 	.hero-text {
 		padding: 3em 0;
+	}
+
+	.call-to-video {
+		width: 66.67%;
 	}
 
 	.step {
