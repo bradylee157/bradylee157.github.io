@@ -377,7 +377,7 @@ address {
 		float: none;
 		width: 85%;
 		margin: .25em auto;
-		padding: .5em .25em;
+		padding: .5em 0;
 	}
 
 	.video-cta {
