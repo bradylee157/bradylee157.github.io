@@ -218,7 +218,9 @@ address {
 }
 
 @media only screen and (min-width: 1201px) {
-
+	.hero-text {
+		padding: 9em 0;
+	}
 }
 
 @media only screen and (max-width: 1200px) {
