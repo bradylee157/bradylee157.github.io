@@ -68,17 +68,17 @@ h1 {
 
 h2 {
 	font-size: 1.8em;
-	font-weight: 700;
+	font-weight: 300;
 }
 
 h3 {
 	font-size: 1.5em;
-	font-weight: 700;
+	font-weight: 300;
 }
 
 h4 {
 	font-size: 1.2em;
-	font-weight: 700;
+	font-weight: 300;
 }
 
 p {
@@ -258,17 +258,14 @@ address {
 
 	h2 {
 		font-size: 1.5em;
-		font-weight: 700;
 	}
 
 	h3 {
 		font-size: 1.2em;
-		font-weight: 700;
 	}
 
 	h4 {
 		font-size: 1.1em;
-		font-weight: 700;
 	}
 
 	.hero-text {
@@ -377,7 +374,6 @@ address {
 
 	.hero-text p {
 		max-width: 32em;
-		font-weight: 300;
 		margin: .5em auto;
 	}
 
@@ -416,10 +412,6 @@ address {
 
 	h1 {
 		font-size: 2em;
-	}
-
-	p {
-		font-weight: 300;
 	}
 
 	.logo {
