@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:200');
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
 
 * {
 	margin: 0;
@@ -42,6 +43,7 @@ nav a:hover {
 	background-color: #2A9EA8;
 	color: white;
 	border: none;
+	opacity: 1;
 }
 
 article {
@@ -121,7 +123,7 @@ address {
 
 .logo-nav {
 	background-color: #0B1626;
-	opacity: .9;
+	opacity: .85;
 }
 
 .logo {
@@ -137,6 +139,12 @@ address {
 	border: none;
 }
 
+.nav-visit {
+	background-color: #217D85;
+	color: white;
+	border-radius: .10em;
+}
+
 .hero-text {
 	background: rgba(11, 22, 38, 0.6);
 	color: white;
@@ -146,6 +154,7 @@ address {
 .hero-text p {
 	max-width: 36em;
 	margin: .5em auto;
+	padding: 1em 0;
 }
 
 .call-to-video {
@@ -157,6 +166,7 @@ address {
 	padding: 1em 1.5em;
 	margin: 2em;
 	display: inline-block;
+	border-radius: .10em;
 }
 
 .call-to-video:hover {
@@ -164,6 +174,8 @@ address {
 	border: 2px solid white;
 	color: white;
 	opacity: 1; /* Opacity affects border. Why? */
+	-webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .call-to-visit {
@@ -176,6 +188,8 @@ address {
 	border: 2px solid #2A9EA8;
 	color: white;
 	opacity: 1;
+	-webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .process-plan {
@@ -187,7 +201,19 @@ address {
 .step {
 	float: left;
 	width: 33.33%;
-	padding: 2em .5em;
+	padding: 1em .5em;
+}
+
+.h3-step {
+	font-family: 'Nothing You Could Do', 'Source Sans Pro', 'Arial', sans-serif;
+	font-size: 2em;
+	background-color: #182D4F;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 auto;
+	padding: .25em;
+	max-width: 2em;
 }
 
 .img-circle {
@@ -282,6 +308,10 @@ address {
 		font-size: 1.1em;
 	}
 
+	.nav-visit {
+		display: none;
+	}
+
 	.hero-text {
 		padding: 6em 0;
 	}
@@ -329,7 +359,7 @@ address {
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
 	nav {
 		width: 100%;
 		padding: 0;
