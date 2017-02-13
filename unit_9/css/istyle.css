@@ -1,0 +1,7 @@
+.non-home {
+	background: rgba(11, 22, 38, .8);
+}
+
+.child {
+	max-width: 48em;
+}
