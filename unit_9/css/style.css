@@ -251,6 +251,12 @@ address {
 	color: white;
 }
 
+.testimonial {
+	max-width: 36em;
+	padding: 2em 1em;
+	margin: 0 auto;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -432,6 +438,10 @@ address {
 
 	.video-cta {
 		padding: 7em 1em;
+	}
+
+	.testimonial {
+		padding: 1.5em .5em;
 	}
 }
 
