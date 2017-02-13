@@ -56,7 +56,6 @@ footer {
 	background: #182D4F;
 	color: white;
 	padding: 5em;
-	margin:	3em 0em 0em 0em;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -191,6 +190,11 @@ address {
 	opacity: 1;
 	-webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+}
+
+.cta-in-text {
+	margin: 1em;
+	clear: both;
 }
 
 .process-plan {
