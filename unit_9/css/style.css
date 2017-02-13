@@ -49,6 +49,7 @@ nav a:hover {
 article {
 	max-width: 36em;
 	margin: 0 auto;
+	padding: 2em 1em;
 }
 
 footer {
@@ -237,7 +238,7 @@ address {
 }
 
 .narrative {
-	padding: 2em 1em;
+	
 }
 
 .testimonial-background {
@@ -256,7 +257,6 @@ address {
 
 .testimonial {
 	max-width: 36em;
-	padding: 2em 1em;
 	margin: 0 auto;
 }
 
@@ -391,6 +391,10 @@ address {
 		width: 100%;
 	}
 
+	article {
+		padding: 1.5em .5em;
+	}
+
 	h1,h2,h3,h4,h5,h6 {
 		padding: .5em .25em;
 	}
@@ -437,14 +441,6 @@ address {
 
 	.video-cta {
 		padding: 7em 1em;
-	}
-
-	.narrative {
-		padding: 1.5em .5em;
-	}
-
-	.testimonial {
-		padding: 1.5em .5em;
 	}
 }
 
