@@ -32,11 +32,13 @@ nav {
 }
 
 nav a {
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	font-variant: small-caps;
 	color: #2A9EA8;
 	letter-spacing: 2px;
 	border: none;
 	padding: 1em 2em;
+	border-radius: .10em;
 }
 
 nav a:hover {
@@ -194,6 +196,10 @@ address {
 
 .cta-in-text {
 	margin: 1em;
+}
+
+.cta-div {
+	width: 100%;
 	clear: both;
 }
 
