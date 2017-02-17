@@ -118,6 +118,24 @@ hr {
 	width: 16em;
 }
 
+blockquote {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	text-align: left;
+	padding: 0em 1em;
+}
+
+cite {
+	display: block;
+	line-height: 1.5em;
+	padding-bottom: 1em; 
+	margin-bottom: 1em;
+}
+
+cite:before {
+	content: "\2014";
+}
+
 address {
 	text-align: left;
 	font-style: normal;
@@ -265,8 +283,8 @@ address {
 }
 
 .testimonial {
-	max-width: 36em;
-	padding: 2em 1em;
+	max-width: 72em;
+	padding: 3em 1em;
 	margin: 0 auto;
 }
 
@@ -360,6 +378,10 @@ address {
 		margin: 0 auto;
 		padding: 0 .25em;
 	}
+
+	.testimonial {
+		padding: 2em 1em;
+	}
 }
 
 /* ================================================ 880px screen ================================================ */
@@ -445,6 +467,10 @@ address {
 
 	footer p {
 		text-align: center;
+	}
+
+	blockquote {
+		padding: 0 .5em;
 	}
 
 	address {
