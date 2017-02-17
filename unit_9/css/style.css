@@ -34,7 +34,7 @@ nav {
 nav a {
 	font-family: 'Source Sans Pro', 'Arial', sans-serif;
 	font-variant: small-caps;
-	color: #2A9EA8;
+	color: white;
 	letter-spacing: 2px;
 	border: none;
 	padding: 1em 2em;
@@ -204,7 +204,7 @@ address {
 }
 
 .process-plan {
-    width: 92%;
+    max-width: 72em;
     margin: auto;
 	padding: 2em 1em;
 }
@@ -222,9 +222,10 @@ address {
 	color: white;
 	border-radius: 50%;
 	text-align: center;
+	width: 1.25em;
+	height: 1.25em;
 	margin: 0 auto;
 	padding: 0;
-	max-width: 1.25em;
 }
 
 .img-circle {
