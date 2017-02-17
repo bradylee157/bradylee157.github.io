@@ -47,7 +47,7 @@ nav a:hover {
 }
 
 article {
-	max-width: 36em;
+	max-width: 72em;
 	margin: 0 auto;
 	padding: 2em 1em;
 }
@@ -197,7 +197,6 @@ address {
 }
 
 .cta-div {
-	width: 100%;
 	clear: both;
 }
 
@@ -242,6 +241,11 @@ address {
 	color: white;
 	padding: 10em .5em;
 	clear: both;
+}
+
+.article-column {
+	width: 50%;
+	float: left;
 }
 
 .testimonial-background {
@@ -310,6 +314,12 @@ address {
 		font-size: 1.2em;
 	}
 
+	article {
+		max-width: 48em;
+		padding: 2em .5em;
+		margin: .5em auto;
+	}
+
 	.nav-visit {
 		display: none;
 	}
@@ -329,10 +339,18 @@ address {
 	}
 
 	.step {
-		float: none;
-		width: 66.6667%;
 		margin: .25em auto;
 		padding: .5em .25em;
+	}
+
+	.step,.article-column {
+		float: none;
+		width: 66.6667%;
+	}
+
+	.article-column {
+		margin: 0 auto;
+		padding: 0 .25em;
 	}
 }
 
@@ -353,11 +371,13 @@ address {
 		padding: 8em 1em;
 	}
 
-	.step {
-		float: none;
+	.step,.article-column {
 		width: 75%;
-		margin: .25em auto;
-		padding: .5em .25em;
+	}
+
+	.article-column {
+		margin: 0 auto;
+		padding: 0 .25em;
 	}
 }
 
@@ -435,10 +455,18 @@ address {
 	}
 
 	.step {
-		float: none;
-		width: 85%;
 		margin: .25em auto;
 		padding: .5em 0;
+	}
+
+	.step,.article-column {
+		float: none;
+		width: 85%;
+	}
+
+	.article-column {
+		margin: 0 auto;
+		padding: 0;
 	}
 
 	.video-cta {
@@ -472,7 +500,7 @@ address {
 		width: 55%;
 	}
 
-	.step {
+	.step,.article-column {
 		width: 100%;
 	}
 
