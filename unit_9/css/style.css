@@ -16,9 +16,7 @@ body {
 
 header {
 	background: url("../images/annapolis_street.jpg") no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -234,9 +232,7 @@ address {
 
 .video-cta-background {
 	background: url("../images/main_street.jpg") no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -250,9 +246,7 @@ address {
 
 .testimonial-background {
 	background: url("../images/water_sunset.jpg") no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
